@@ -12,4 +12,8 @@ public class Calculator {
     }
 
     private final String VERSION = "1.1-B";
+
+    public void printVersion() {
+        System.out.println("Calculator version: " + VERSION);
+    }
 }
