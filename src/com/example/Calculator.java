@@ -7,8 +7,8 @@ public class Calculator {
         return a + b;
     }
 
-    public int multiply(int a, int b) {
-        return a * b;
+    public int multiply(int a, int b, int c) {
+        return a * b * c;
     }
 
     private final String VERSION = "1.1-B";
