@@ -16,4 +16,9 @@ public class Calculator {
     public void printVersion() {
         System.out.println("Calculator version: " + VERSION);
     }
+
+    public void clearMemory() {
+        memory = 0;
+        lastOperation = "CLEAR";
+    }
 }
