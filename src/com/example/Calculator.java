@@ -22,4 +22,8 @@ public class Calculator {
         memory = 0;
         lastOperation = "CLEAR";
     }
+
+    public void setPrecision(int precision) {
+        this.precision = precision;
+    }
 }
