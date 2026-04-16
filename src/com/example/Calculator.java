@@ -8,7 +8,9 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
-        if (b == 0) return 0;
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero");
+        }
         return (double) a / b;
     }
 
