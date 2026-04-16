@@ -17,4 +17,9 @@ public class Calculator {
     public String getLastOperation() {
         return lastOperation;
     }
+
+    public void clearMemory() {
+        memory = 0;
+        lastOperation = "CLEAR";
+    }
 }
